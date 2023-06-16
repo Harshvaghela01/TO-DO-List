@@ -1,0 +1,102 @@
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #ddd;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 0 5px 5px 0;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  font-size: 16px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li .delete-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+    li .delete-button:hover 
+{
+  background-color: #c82333;
+}
+/* Change the color of completed tasks */
+li.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Change the color of the "Add" button on hover */
+button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+/* Add a hover effect to task list items */
+li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Style the task list counter */
+#task-count {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #888;
+}
+
+/* Style the clear button */
+#clear-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#clear-button:hover {
+  background-color: #c82333;
+}
+
